@@ -1,0 +1,68 @@
+body{
+    background-color:  rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /* if you want to generate the linear gradienr search for gradient generETOR */
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+   margin-left: 35%;
+}
+
+#form{
+    width: 500px;
+    margin: 20vh 0px auto;
+    background-color: rgb(244, 241, 243);
+    padding: 30px;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(213, 128, 217);
+}
+
+form .reg{
+    background-color:rgb(213, 128, 217);
+    color: floralwhite;
+    border: 1px solid  rgb(213, 128, 217);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    margin: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 1px;
+    border: 1px solid rgb(213, 128, 217) ;
+
+}
+.input-group input:focus{
+    outline: 0;
+}
+
+.input-group.error{
+    color: red;
+    font-size: 10px;
+    margin-top: 5px;
+
+}
+
+.input-group.success input{
+    border-color:darkgreen;
+}
+
+.input-group.error input{
+    border-color:rgb(199, 53, 56);
+}
